@@ -17,9 +17,9 @@ const parImpar = (array) => {
 
   for (let i = 0; i < array.length; i++) {
     if (array[i].length % 2 === 0) {
-      par.push(array[i]);
+      pares.push(array[i]);
     } else {
-      impar.push(array[i]);
+      impares.push(array[i]);
     }
   }
 
